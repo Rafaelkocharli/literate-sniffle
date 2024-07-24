@@ -6,4 +6,4 @@ def hello_world():
   return {'hello':'world'}
  
 if __name__ == 'main':
-  app.run(debug=True)
+  app.run(debug=False, host='0.0.0.0')
