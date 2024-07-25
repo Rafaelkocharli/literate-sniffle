@@ -1,0 +1,37 @@
+[
+  {
+    "id": 0,
+    "name": "IT и другие приключения Шурика",
+    "image": "community_0.jpg"
+  },
+  {
+    "id": 1,
+    "name": "NoStupidQuestion",
+    "image": "community_1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "News of the world",
+    "image": "community_2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Истории у костра",
+    "image": "community_3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Смех и специи",
+    "image": "community_4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Новости",
+    "image": "community_5.jpg"
+  },
+    {
+    "id": 6,
+    "name": "В мире животных",
+    "image": "community_6.jpg"
+  }
+]
