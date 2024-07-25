@@ -1,6 +1,7 @@
-from flask import Flask
+from flask import Flask, send_file
+
 app = Flask(__name__)
 
-@app.route('/')
-def hello_world():
-  return {'hello':'ориоиоиро'}
+@app.route('/image/<image>')
+def index(image):
+    return send_file(id, mimetype='image/jpg')
