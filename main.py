@@ -17,3 +17,13 @@ def community():
             data = table
         return data
 
+@app.route('/posts/')
+def post():
+    [field, value] = handleParams(request.values)
+    with open('db/posts.json') as f:
+        table = json.load(f)
+        if field:
+            data = getEntityByField(table, field, value) or {}
+        else:
+            data = table
+        return {**data}
